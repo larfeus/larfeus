@@ -16,5 +16,6 @@
     "psr-4": {
       "Larfeus\\": ""
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
