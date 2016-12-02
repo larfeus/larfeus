@@ -133,7 +133,7 @@ class Router {
 					list($typeof, $callback) = $handler;
 
 					if ($typeof == $type) {
-						if ($callback() === false) {
+						if ($callback($action) === false) {
 							break;
 						}
 					}
