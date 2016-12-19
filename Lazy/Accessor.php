@@ -21,7 +21,7 @@ namespace Larfeus\Lazy;
  *
  * @author larfeus
  */
-trait Accesor {
+trait Accessor {
 
 	/**
 	 * Magic getter
