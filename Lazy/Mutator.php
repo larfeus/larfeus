@@ -28,7 +28,7 @@ trait Mutator {
 	 * @param string $name
 	 * @param mixed $value
 	 */
-	protected function __set($name, $value) {
+	public function __set($name, $value) {
 
 		$method = "__set_{$name}";
 
